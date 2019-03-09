@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  this is responsible for adding the new fields into the footer -->
+<odoo>
+  <record id="extended_social_blog" model="ir.ui.view">
+      <field name="inherit_id" ref="website_blog.opt_blog_rc_follow_us"/>
+      <field name="arch" type="xml">
+        <!-- position -->
+        <xpath expr="//div[@id='blog_right_column']/section[@class='mt32']/h2/a[@t-att-href='website.social_github']" position="after">
+        <!-- Fields - field link + if field exist then it will be displayed + field icon -->
+                <a t-att-href="website.social_steemit" t-if="website.social_steemit"><img src="/steemit/static/src/img/steemit.png"/></a>
+                <a t-att-href="website.social_dtube" t-if="website.social_dtube"><img width="28" height="28" src="/steemit/static/src/img/dtube.png"/></a>
+                </xpath>
+      </field>
+  </record>
+</odoo>

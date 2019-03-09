@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  this is responsible for adding the new fields into the company form -->
+<odoo>
+    <record id="extended_social_company" model="ir.ui.view">
+        <field name="model">res.company</field>
+        <field name="inherit_id" ref="website.view_company_form_inherit_website"/>
+        <field name="arch" type="xml">
+        <!-- if you want to hide the field you can simple put an invisible="True" attribute -->
+        <field name="social_googleplus" position="after">
+        <field name="social_steemit"/>
+        <field name="social_dtube"/>
+
+        </field>
+        </field>
+    </record>
+</odoo>
