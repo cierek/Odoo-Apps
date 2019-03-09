@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  this is responsible for adding the new fields into the company form -->
+<odoo>
+  <!-- any questions? piotr.w.cierkosz@gmail.com -->
+      <data>
+        <record id="implemented_by_visible" model="ir.ui.view">
+          <field name="inherit_id" ref="website_crm_partner_assign.view_crm_partner_assign_form"/>
+          <field name="model">res.partner</field>
+          <field name="arch" type="xml">
+              <field name="assigned_partner_id" position="attributes">
+               <attribute name="groups">base.group_user</attribute>
+        </field>
+          </field>
+        </record>
+      </data>
+</odoo>
