@@ -1,0 +1,134 @@
+<openerp>
+  <data>
+    <record id="res_country_state_PL_DS" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Carlow</field>
+      <field name="code">IE-CW</field>
+    </record>
+    <record id="res_country_state_PL_KP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Cavan</field>
+      <field name="code">IE-CN</field>
+    </record>
+    <record id="res_country_state_PL_LU" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Clare</field>
+<field name="code">IE-CE</field>
+    </record>
+    <record id="res_country_state_PL_LB" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Cork</field>
+      <field name="code">IE-CO</field>
+    </record>
+    <record id="res_country_state_PL_LD" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Donegal</field>
+<field name="code">IE-DO</field>
+    </record>
+    <record id="res_country_state_PL_MA" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Dublin</field>
+      <field name="code">IE-D</field>
+    </record>
+    <record id="res_country_state_PL_MZ" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Galway</field>
+      <field name="code">IE-G</field>
+    </record>
+    <record id="res_country_state_PL_OP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Kerry</field>
+      <field name="code">IE-KY</field>
+    </record>
+    <record id="res_country_state_PL_PK" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Kildare</field>
+      <field name="code">IE-KE</field>
+    </record>
+    <record id="res_country_state_PL_PD" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Kilkenny</field>
+      <field name="code">IE-KK</field>
+    </record>
+    <record id="res_country_state_PL_SL" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Laois</field>
+      <field name="code">IE-LS</field>
+    </record>
+    <record id="res_country_state_PL_SK" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Leitrim</field>
+      <field name="code">IE-LM</field>
+    </record>
+    <record id="res_country_state_PL_WN" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Limerick</field>
+      <field name="code">IE-LK</field>
+    </record>
+    <record id="res_country_state_PL_WP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Longford</field>
+      <field name="code">IE-LD</field>
+    </record>
+    <record id="res_country_state_PL_WP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Louth</field>
+      <field name="code">IE-LH</field>
+    </record>
+    <record id="res_country_state_PL_WP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Mayo</field>
+      <field name="code">IE-MO</field>
+    </record>
+      <record id="res_country_state_PL_WP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Meath</field>
+      <field name="code">IE-MH</field>
+    </record>
+      <record id="res_country_state_PL_WP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Monaghan</field>
+      <field name="code">IE-MN</field>
+    </record>
+        <record id="res_country_state_PL_WP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Offaly</field>
+      <field name="code">IE-OY</field>
+    </record>
+      <record id="res_country_state_PL_WP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Roscommon</field>
+      <field name="code">IE-RN</field>
+    </record>
+    <record id="res_country_state_PL_WP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Sligo</field>
+      <field name="code">IE-SO</field>
+    </record>
+    <record id="res_country_state_PL_WP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Tipperary</field>
+      <field name="code">IE-TA</field>
+    </record>
+      <record id="res_country_state_PL_WP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Waterford</field>
+      <field name="code">IE-WD</field>
+    </record>
+    <record id="res_country_state_PL_WP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Westmeath</field>
+      <field name="code">IE-WH</field>
+    </record>
+    <record id="res_country_state_PL_WP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Wexford</field>
+      <field name="code">IE-WX</field>
+    </record>
+    <record id="res_country_state_PL_WP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','IE')]" />
+      <field name="name">Wicklow</field>
+      <field name="code">IE-WW</field>
+    </record>
+  </data>
+</openerp>
