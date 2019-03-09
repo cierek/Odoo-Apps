@@ -1,0 +1,16 @@
+<openerp>
+    <data>
+      <!-- Record from External ID -->
+      <record id="d_search_acc" model="ir.ui.view">
+        <field name="inherit_id" ref="account.view_account_invoice_filter"/>
+        <!-- From object  -->
+        <field name="model">account.invoice</field>
+        <!-- inherits architecture  -->
+        <field name="arch" type="xml">
+          <field name='number' position="before">
+            <filter string="Today" domain="[('date_invoice', '&gt;=', datetime.datetime.now().strftime('%Y-%m-%d 00:00:00')),('date_invoice', '&lt;=', datetime.datetime.now().strftime('%Y-%m-%d 23:23:59'))]"/>
+          </field>
+        </field>
+      </record>
+    </data>
+</openerp>
