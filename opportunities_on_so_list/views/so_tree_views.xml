@@ -1,0 +1,13 @@
+<openerp>
+    <data>
+      <record id="opportunityid_view_order_tree" model="ir.ui.view">
+        <field name="inherit_id" ref="sale.view_order_tree"/>
+        <field name="model">sale.order</field>
+        <field name="arch" type="xml">
+          <field name="user_id" position="after">
+            <field name="opportunity_id"/>
+          </field>
+        </field>
+      </record>
+    </data>
+</openerp>
