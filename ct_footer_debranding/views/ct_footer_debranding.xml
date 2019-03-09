@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- inheriting Products item" view -->
+  <template id="ct_footer_debranding" inherit_id="website.brand_promotion" name="Footer debranding" active="True" priority="99">
+    <xpath expr="//div[@class='o_brand_promotion']" position="replace">
+      <div class="o_brand_promotion">
+    </div>
+        </xpath>
+    </template>
+    </data>
