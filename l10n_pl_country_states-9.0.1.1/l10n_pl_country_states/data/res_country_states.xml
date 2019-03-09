@@ -1,0 +1,84 @@
+<openerp>
+  <data>
+    <record id="res_country_state_PL_DS" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PL')]" />
+      <field name="name">Dolnośląskie</field>
+      <field name="code">PL-DS</field>
+    </record>
+    <record id="res_country_state_PL_KP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PL')]" />
+      <field name="name">Kujawsko-pomorskie</field>
+      <field name="code">PL-KP</field>
+    </record>
+    <record id="res_country_state_PL_LU" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PL')]" />
+      <field name="name">Lubelskie</field>
+<field name="code">PL-LU</field>
+    </record>
+    <record id="res_country_state_PL_LB" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PL')]" />
+      <field name="name">Lubuskie</field>
+      <field name="code">LB</field>
+    </record>
+    <record id="res_country_state_PL_LD" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PL')]" />
+      <field name="name">Łódzkie</field>
+<field name="code">PL-LD</field>
+    </record>
+    <record id="res_country_state_PL_MA" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PL')]" />
+      <field name="name">Małopolskie</field>
+      <field name="code">PL-MA</field>
+    </record>
+    <record id="res_country_state_PL_MZ" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PL')]" />
+      <field name="name">Mazowieckie</field>
+      <field name="code">PL-MZ</field>
+    </record>
+    <record id="res_country_state_PL_OP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PL')]" />
+      <field name="name">Opolskie</field>
+      <field name="code">PL-OP</field>
+    </record>
+    <record id="res_country_state_PL_PK" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PL')]" />
+      <field name="name">Podkarpackie</field>
+      <field name="code">PL-PK</field>
+    </record>
+    <record id="res_country_state_PL_PD" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PL')]" />
+      <field name="name">Podlaskie</field>
+      <field name="code">PL-PD</field>
+    </record>
+    <record id="res_country_state_PL_PM" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PL')]" />
+      <field name="name">Pomorskie</field>
+      <field name="code">PL-PM</field>
+    </record>
+    <record id="res_country_state_PL_SL" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PL')]" />
+      <field name="name">Śląskie</field>
+      <field name="code">PL-SL</field>
+    </record>
+    <record id="res_country_state_PL_SK" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PL')]" />
+      <field name="name">Świętokrzyskie</field>
+      <field name="code">PL-SK</field>
+    </record>
+    <record id="res_country_state_PL_WN" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PL')]" />
+      <field name="name">Warmińsko-mazurskie</field>
+      <field name="code">PL-WN</field>
+    </record>
+    <record id="res_country_state_PL_WP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PL')]" />
+      <field name="name">Wielkopolskie</field>
+      <field name="code">PL-WP</field>
+    </record>
+    <record id="res_country_state_PL_ZP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PL')]" />
+      <field name="name">Zachodniopomorskie</field>
+      <field name="code">PL-ZP</field>
+    </record>
+  </data>
+</openerp>

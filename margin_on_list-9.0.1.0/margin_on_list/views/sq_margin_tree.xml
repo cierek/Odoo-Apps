@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+    <record model="ir.ui.view" id="margin_on_q_tree">
+        <field name="name">sale.quotation.tree.sale.margin</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_quotation_tree"/>
+        <field name="arch" type="xml">
+            <field name="state" position="after">
+                <field name="margin" groups="base.group_user"/>
+            </field>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="margin_on_s_tree">
+        <field name="name">sale.order.tree.sale.margin</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_tree"/>
+        <field name="arch" type="xml">
+            <field name='invoice_status' position="after">
+                <field name="margin" groups="base.group_user"/>
+            </field>
+        </field>
+    </record>
+
+    </data>
+</openerp>

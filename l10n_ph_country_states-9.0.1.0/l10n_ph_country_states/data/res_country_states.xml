@@ -1,0 +1,414 @@
+<openerp>
+  <data>
+    <record id="res_country_state_PH_ABR" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Abra</field>
+      <field name="code">PH-ABR</field>
+    </record>
+    <record id="res_country_state_PH_AGN" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Agusan del Norte</field>
+      <field name="code">PH-AGN</field>
+    </record>
+    <record id="res_country_state_PH_AKL" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Aklan</field>
+<field name="code">PH-AKL</field>
+    </record>
+    <record id="res_country_state_PH_AGS" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Agusan del Sur</field>
+      <field name="code">PH-AGS</field>
+    </record>
+    <record id="res_country_state_PH_ALB" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Albay</field>
+<field name="code">PH-ALB</field>
+    </record>
+    <record id="res_country_state_PH_ANT" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Antique</field>
+      <field name="code">PH-ANT</field>
+    </record>
+    <record id="res_country_state_PH_APA" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Apayao</field>
+      <field name="code">PH-APA</field>
+    </record>
+    <record id="res_country_state_PH_AUR" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Aurora</field>
+      <field name="code">PH-AUR</field>
+    </record>
+    <record id="res_country_state_PH_BAS" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Basilan</field>
+      <field name="code">PH-BAS</field>
+    </record>
+    <record id="res_country_state_PH_BAN" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Bataan</field>
+      <field name="code">PH-BAN</field>
+    </record>
+    <record id="res_country_state_PH_BTN" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Batanes</field>
+      <field name="code">PH-BTN</field>
+    </record>
+    <record id="res_country_state_PH_BTG" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Batangas</field>
+      <field name="code">PH-BTG</field>
+    </record>
+    <record id="res_country_state_PH_BEN" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Benguet</field>
+      <field name="code">PH-BEN</field>
+    </record>
+    <record id="res_country_state_PH_BIL" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Biliran</field>
+      <field name="code">PH-BIL</field>
+    </record>
+    <record id="res_country_state_PH_BOH" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Bohol</field>
+      <field name="code">PH-BOH</field>
+    </record>
+    <record id="res_country_state_PH_BUK" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Bukidnon</field>
+      <field name="code">PH-BUK</field>
+    </record>
+    <record id="res_country_state_PH_BUL" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Bulacan</field>
+      <field name="code">PH-BUL</field>
+    </record>
+        <record id="res_country_state_PH_BUK" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Bukidnon</field>
+      <field name="code">PH-BUK</field>
+    </record>
+        <record id="res_country_state_PH_CAG" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Cagayan</field>
+      <field name="code">PH-CAG</field>
+    </record>
+        <record id="res_country_state_PH_CAN" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Camarines Norte</field>
+      <field name="code">PH-CAN</field>
+    </record>
+        <record id="res_country_state_PH_CAS" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Camarines Sur</field>
+      <field name="code">PH-CAS</field>
+    </record>
+        <record id="res_country_state_PH_CAN" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Camiguin</field>
+      <field name="code">PH-CAM</field>
+    </record>
+        <record id="res_country_state_PH_CAP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Capiz</field>
+      <field name="code">PH-CAP</field>
+    </record>
+        <record id="res_country_state_PH_CAT" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Catanduanes</field>
+      <field name="code">PH-CAT</field>
+    </record>
+        <record id="res_country_state_PH_CAV" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Cavite</field>
+      <field name="code">PH-CAV</field>
+    </record>
+        <record id="res_country_state_PH_CEB" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Cebu</field>
+      <field name="code">PH-CEB</field>
+    </record>
+        <record id="res_country_state_PH_COM" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Compostela Valley</field>
+      <field name="code">PH-COM</field>
+    </record>
+        <record id="res_country_state_PH_NCO" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Cotabato</field>
+      <field name="code">PH-NCO</field>
+    </record>
+      <record id="res_country_state_PH_DVO" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Davao Occidental</field>
+      <field name="code">PH-DVO</field>
+    </record>
+      <record id="res_country_state_PH_DAO" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Davao Oriental</field>
+      <field name="code">PH-DAO</field>
+    </record>
+      <record id="res_country_state_PH_DAV" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Davao del Norte</field>
+      <field name="code">PH-DAV</field>
+    </record>
+      <record id="res_country_state_PH_DAS" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Davao del Sur</field>
+      <field name="code">PH-DAS</field>
+    </record>
+    <record id="res_country_state_PH_DIN" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Dinagat Islands</field>
+      <field name="code">PH-DIN</field>
+    </record>
+    <record id="res_country_state_PH_EAS" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Eastern Samar</field>
+      <field name="code">PH-EAS</field>
+    </record>
+    <record id="res_country_state_PH_GUI" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Guimaras</field>
+      <field name="code">PH-GUI</field>
+    </record>
+    <record id="res_country_state_PH_IFU" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Ifugao</field>
+      <field name="code">PH-IFU</field>
+    </record>
+    <record id="res_country_state_PH_ILN" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Ilocos Norte</field>
+      <field name="code">PH-ILN</field>
+    </record>
+    <record id="res_country_state_PH_ILS" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Ilocos Sur</field>
+      <field name="code">PH-ILS</field>
+    </record>
+    <record id="res_country_state_PH_ILI" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Iloilo</field>
+      <field name="code">PH-ILI</field>
+    </record>
+    <record id="res_country_state_PH_ISA" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Isabela</field>
+      <field name="code">PH-ISA</field>
+    </record>
+    <record id="res_country_state_PH_KAL" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Kalinga</field>
+      <field name="code">PH-KAL</field>
+    </record>
+    <record id="res_country_state_PH_ZP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">La Union</field>
+      <field name="code">PH-LUN</field>
+    </record>
+    <record id="res_country_state_PH_ZP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Laguna</field>
+      <field name="code">PH-LAG</field>
+    </record>
+    <record id="res_country_state_PH_ZP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Lanao del Norte</field>
+      <field name="code">PH-LAS</field>
+    </record>
+    <record id="res_country_state_PH_ZP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Lanao del Sur</field>
+      <field name="code">PH-NCO</field>
+    </record>
+    <record id="res_country_state_PH_ZP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Leyte</field>
+      <field name="code">PH-LEY</field>
+    </record>
+    <record id="res_country_state_PH_MAG" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Maguindanao</field>
+      <field name="code">PH-MAG</field>
+    </record>
+    <record id="res_country_state_PH_MAD" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Marinduque</field>
+      <field name="code">PH-MAD</field>
+    </record>
+    <record id="res_country_state_PH_MAS" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Masbate</field>
+      <field name="code">PH-MAS</field>
+    </record>
+    <record id="res_country_state_PH_MDC" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Mindoro Occidental</field>
+      <field name="code">PH-MDC</field>
+    </record>
+    <record id="res_country_state_PH_MDR" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Mindoro Oriental</field>
+      <field name="code">PH-MDR</field>
+    </record>
+    <record id="res_country_state_PH_MSC" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Misamis Occidental</field>
+      <field name="code">PH-MSC</field>
+    </record>
+    <record id="res_country_state_PH_MSR" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Misamis Oriental</field>
+      <field name="code">PH-MSR</field>
+    </record>
+    <record id="res_country_state_PH_ZP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Mountain Province</field>
+      <field name="code">PH-MOU</field>
+    </record>
+    <record id="res_country_state_PH_NEC" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Negros Occidental</field>
+      <field name="code">PH-NEC</field>
+    </record>
+    <record id="res_country_state_PH_NER" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Negros Oriental</field>
+      <field name="code">PH-NER</field>
+    </record>
+    <record id="res_country_state_PH_NSA" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Northern Samar</field>
+      <field name="code">PH-NSA</field>
+    </record>
+    <record id="res_country_state_PH_NUE" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Nueva Ecija</field>
+      <field name="code">PH-NUE</field>
+    </record>
+    <record id="res_country_state_PH_NUV" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Nueva Vizcaya</field>
+      <field name="code">PH-NUV</field>
+    </record>
+    <record id="res_country_state_PH_PLW" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Palawan</field>
+      <field name="code">PH-PLW</field>
+    </record>
+    <record id="res_country_state_PH_PAM" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Pampanga</field>
+      <field name="code">PH-PAM</field>
+    </record>
+    <record id="res_country_state_PH_PAN" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Pangasinan</field>
+      <field name="code">PH-PAN</field>
+    </record>
+    <record id="res_country_state_PH_QUE" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Quezon</field>
+      <field name="code">PH-QUE</field>
+    </record>
+    <record id="res_country_state_PH_QUI" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Quirino</field>
+      <field name="code">PH-QUI</field>
+    </record>
+    <record id="res_country_state_PH_RIZ" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Rizal</field>
+      <field name="code">PH-RIZ</field>
+    </record>
+    <record id="res_country_state_PH_ROM" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Romblon</field>
+      <field name="code">PH-ROM</field>
+    </record>
+    <record id="res_country_state_PH_WSA" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Samar</field>
+      <field name="code">PH-WSA</field>
+    </record>
+    <record id="res_country_state_PH_SAR" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Sarangani</field>
+      <field name="code">PH-SAR</field>
+    </record>
+    <record id="res_country_state_PH_SIG" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Siquijor</field>
+      <field name="code">PH-SIG</field>
+    </record>
+    <record id="res_country_state_PH_SOR" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Sorsogon</field>
+      <field name="code">PH-SOR</field>
+    </record>
+    <record id="res_country_state_PH_SCO" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">South Cotabato</field>
+      <field name="code">PH-SCO</field>
+    </record>
+    <record id="res_country_state_PH_SLE" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Southern Leyte</field>
+      <field name="code">PH-SLE</field>
+    </record>
+    <record id="res_country_state_PH_SUK" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Sultan Kudarat</field>
+      <field name="code">PH-SUK</field>
+    </record>
+    <record id="res_country_state_PH_SLU" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Sulu</field>
+      <field name="code">PH-SLU</field>
+    </record>
+    <record id="res_country_state_PH_SUN" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Surigao del Norte</field>
+      <field name="code">PH-SUN</field>
+    </record>
+    <record id="res_country_state_PH_SUR" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Surigao del Sur</field>
+      <field name="code">PH-SUR</field>
+    </record>
+    <record id="res_country_state_PH_TAR" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Tarlac</field>
+      <field name="code">PH-TAR</field>
+    </record>
+    <record id="res_country_state_PH_TAW" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Tawi-Tawi</field>
+      <field name="code">PH-TAW</field>
+    </record>
+    <record id="res_country_state_PH_ZMB" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Zambales</field>
+      <field name="code">PH-ZMB</field>
+    </record>
+      <record id="res_country_state_PH_ZSI" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Zamboanga Sibugay</field>
+      <field name="code">PH-ZSI</field>
+    </record>
+      <record id="res_country_state_PH_ZAN" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Zamboanga del Norte</field>
+      <field name="code">PH-ZAN</field>
+    </record>
+    <record id="res_country_state_PH_ZAS" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','PH')]" />
+      <field name="name">Zamboanga del Sur</field>
+      <field name="code">PH-ZAS</field>
+    </record>
+  </data>
+</openerp>
