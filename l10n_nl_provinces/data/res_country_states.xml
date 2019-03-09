@@ -1,0 +1,84 @@
+<openerp>
+  <data>
+    <record id="res_country_state_NL_DR" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','NL')]" />
+      <field name="name">Drenthe</field>
+      <field name="code">NL-DR</field>
+    </record>
+    <record id="res_country_state_NL_FL" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','NL')]" />
+      <field name="name">Flevoland</field>
+      <field name="code">NL-FL</field>
+    </record>
+    <record id="res_country_state_NL_FR" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','NL')]" />
+      <field name="name">Friesland</field>
+<field name="code">NL-FR</field>
+    </record>
+    <record id="res_country_state_NL_GD" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','NL')]" />
+      <field name="name">Gelderland</field>
+      <field name="code">NL-GD</field>
+    </record>
+    <record id="res_country_state_NL_LB" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','NL')]" />
+      <field name="name">Limburg</field>
+<field name="code">NL-LB</field>
+    </record>
+    <record id="res_country_state_NL_NB" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','NL')]" />
+      <field name="name">Noord-Brabant</field>
+      <field name="code">NL-NB</field>
+    </record>
+    <record id="res_country_state_NL_NH" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','NL')]" />
+      <field name="name">Noord-Holland</field>
+      <field name="code">NL-NH</field>
+    </record>
+    <record id="res_country_state_NL_OV" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','NL')]" />
+      <field name="name">Overijssel</field>
+      <field name="code">NL-OV</field>
+    </record>
+    <record id="res_country_state_NL_UT" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','NL')]" />
+      <field name="name">Ultrecht</field>
+      <field name="code">NL-UT</field>
+    </record>
+    <record id="res_country_state_NL_ZL" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','NL')]" />
+      <field name="name">Zuid-Holland</field>
+      <field name="code">NL-ZL</field>
+    </record>
+    <record id="res_country_state_NL_AW" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','NL')]" />
+      <field name="name">Aruba</field>
+      <field name="code">NL-AW</field>
+    </record>
+    <record id="res_country_state_NL_CW" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','NL')]" />
+      <field name="name">Curaçao</field>
+      <field name="code">NL-CW</field>
+    </record>
+    <record id="res_country_state_NL_SX" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','NL')]" />
+      <field name="name">Sint Maarten</field>
+      <field name="code">NL-SX</field>
+    </record>
+    <record id="res_country_state_NL_BQ1" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','NL')]" />
+      <field name="name">Bonaire</field>
+      <field name="code">NL-BQ1</field>
+    </record>
+    <record id="res_country_state_NL_BQ2" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','NL')]" />
+      <field name="name">Saba</field>
+      <field name="code">NL-BQ2</field>
+    </record>
+    <record id="res_country_state_NL_BQ3" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','NL')]" />
+      <field name="name">Sint Eustatius</field>
+      <field name="code">NL-BQ3</field>
+    </record>
+  </data>
+</openerp>
