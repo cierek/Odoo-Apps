@@ -7,7 +7,7 @@
     'author' : "Piotr Cierkosz",
     'category': 'Sales',
     'license': 'Other proprietary',
-    'depends' : ['sale', 'crm'],
+    'depends' : ['sale_crm'],
     'installable' : True,
     'description' : "This module adds opportunities to the tree view (Sales Orders and Quotations)",
     'website': "www.cier.tech",
