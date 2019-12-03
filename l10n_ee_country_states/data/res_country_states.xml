@@ -1,0 +1,79 @@
+<openerp>
+  <data>
+    <record id="res_country_state_PL_DS" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','EE')]" />
+      <field name="name">Harjumaa</field>
+      <field name="code">EE-37</field>
+    </record>
+    <record id="res_country_state_PL_KP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','EE')]" />
+      <field name="name">Hiiumaa</field>
+      <field name="code">EE-39</field>
+    </record>
+    <record id="res_country_state_PL_LU" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','EE')]" />
+      <field name="name">Ida-Virumaa</field>
+<field name="code">EE-44</field>
+    </record>
+    <record id="res_country_state_PL_LB" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','EE')]" />
+      <field name="name">Jõgevamaa</field>
+      <field name="code">EE-49</field>
+    </record>
+    <record id="res_country_state_PL_LD" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','EE')]" />
+      <field name="name">Järvamaa</field>
+<field name="code">EE-51</field>
+    </record>
+    <record id="res_country_state_PL_MA" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','EE')]" />
+      <field name="name">Läänemaa</field>
+      <field name="code">EE-57</field>
+    </record>
+    <record id="res_country_state_PL_MZ" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','EE')]" />
+      <field name="name">Lääne-Virumaa</field>
+      <field name="code">EE-59</field>
+    </record>
+    <record id="res_country_state_PL_OP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','EE')]" />
+      <field name="name">Põlvamaa</field>
+      <field name="code">EE-65</field>
+    </record>
+    <record id="res_country_state_PL_PK" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','EE')]" />
+      <field name="name">Pärnumaa</field>
+      <field name="code">EE-67</field>
+    </record>
+    <record id="res_country_state_PL_PD" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','EE')]" />
+      <field name="name">Raplamaa</field>
+      <field name="code">EE-70</field>
+    </record>
+    <record id="res_country_state_PL_PM" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','EE')]" />
+      <field name="name">Saaremaa</field>
+      <field name="code">EE-74</field>
+    </record>
+    <record id="res_country_state_PL_SL" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','EE')]" />
+      <field name="name">Tartumaa</field>
+      <field name="code">EE-78</field>
+    </record>
+    <record id="res_country_state_PL_SK" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','EE')]" />
+      <field name="name">Valgamaa</field>
+      <field name="code">EE-82</field>
+    </record>
+    <record id="res_country_state_PL_WN" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','EE')]" />
+      <field name="name">Viljandimaa</field>
+      <field name="code">EE-84</field>
+    </record>
+    <record id="res_country_state_PL_WP" model="res.country.state">
+      <field model="res.country" name="country_id" search="[('code','=','EE')]" />
+      <field name="name">Võrumaa</field>
+      <field name="code">EE-86</field>
+    </record>
+  </data>
+</openerp>
