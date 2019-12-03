@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright 2018 Piotr Cierkosz (https://www.cier.tech)
+# © 2019 Piotr Cierkosz <info@cier.tech>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 {
     'name' : "Force Invoice Name",

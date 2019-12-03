@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-
+# © 2019 Piotr Cierkosz <info@cier.tech>
 {
     'name' : "Opportunity on Sales Orders list",
-    'version' : "1.1",
+    'version' : "12.0.1.1",
     'images': ['images/thumbnail.png'],
     'author' : "Piotr Cierkosz",
     'category': 'Sales',

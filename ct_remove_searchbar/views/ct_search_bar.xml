@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <template id="ct_search_bar_remove" inherit_id="website.website_search_box" name="remove searchbar" active="True" priority="99">
+      <xpath expr="//div[@class='input-group']" position="replace">
+        <!-- replaces searchbar with empty space -->
+      </xpath>
+    </template>
+  </data>
+</odoo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+  <data>
+    <template id="ct_coil_code" inherit_id="website.layout" name="Coil Code" active="True" priority="99">
+      <xpath expr="//meta[@name='generator']" position="after">
+        <meta name="monetization" t-att-content="website.coil_content"/>
+      </xpath>
+    </template>
+  </data>
+</odoo>

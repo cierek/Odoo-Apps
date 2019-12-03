@@ -3,9 +3,8 @@
   <!-- inheriting Products item" view -->
   <template id="ct_sidebar_debranding" inherit_id="portal.portal_record_sidebar" name="Sidebar debranding" active="True" priority="99">
     <xpath expr="//div[1]/div[1]/div[2]" position="replace">
-      <div class="card-footer small text-center text-muted border-top-0 pt-1 pb-1 d-none d-lg-block">
-    </div>
+      <div class="card-footer small text-center text-muted border-top-0 pt-1 pb-1 d-none d-lg-block"></div>
 
-        </xpath>
-    </template>
-    </data>
+    </xpath>
+  </template>
+</data>

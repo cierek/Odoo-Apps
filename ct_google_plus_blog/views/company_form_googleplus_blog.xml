@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- this removes Google+ share link from blog posts -->
+  <template id="blog_googleplus_remove" inherit_id="website_blog.blog_post_complete" name="Remove Google+ Blog" active="True" priority="99">
+    <xpath expr="//a[@class='fa fa-google-plus-square o_google_complete']" position="replace"></xpath>
+  </template>
+
+</data>

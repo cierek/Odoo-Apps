@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# (C) Piotr Cierkosz - See the license for more details
+# © 2019 Piotr Cierkosz <info@cier.tech>
 # Module was produced in a good faith, it was tested with clean Odoo 11 version and no errors were detectedself.
 # Can't guarantee proper work of the module and I don't take responsibility for errors caused by itself.
 # E-mail me with any questions.
@@ -7,7 +7,7 @@
     'name': 'Implemented by visible for all users',
     'author': 'Piotr Cierkosz',
     'website': 'http://www.cier.tech',
-    'version': '1.0',
+    'version': '12.0.1.0',
     'category': 'Extra Tools',
     'images': ['images/thumbnail.png'],
     'depends' : ['website', 'website_crm_partner_assign', 'crm'],

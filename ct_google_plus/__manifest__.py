@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# © 2018 Piotr Cierkosz <piotr.w.cierkosz@gmail.com>
+# © 2019 Piotr Cierkosz <info@cier.tech>
 {
     'name': "Remove Google+ from Odoo",
-    'version': "1.0",
+    'version': "12.0.1.0",
     'author': "Piotr Cierkosz",
     'website': "www.cier.tech",
     'category': "Website",

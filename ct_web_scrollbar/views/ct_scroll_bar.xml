@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+  <data>
+    <template id="ct_scroll_bar" inherit_id="portal.frontend_layout" name="Scroll Bar" active="True" priority="99">
+      <xpath expr="//t[@t-set='head']" position="after">
+        <marquee><font color="red"><b>Website in Construction</b></font> - please make orders by email, form or phone. Thank you</marquee>
+      </xpath>
+
+    </template>
+  </data>
+</odoo>
