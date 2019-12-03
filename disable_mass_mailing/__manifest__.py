@@ -3,7 +3,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 {
     'name': 'Disable mass mailing by default',
-    'version': '1.0',
+    'version': '10.0.1.0',
     'category': 'Marketing',
     'author': 'Piotr Cierkosz',
     'website': 'https://www.cier.tech',

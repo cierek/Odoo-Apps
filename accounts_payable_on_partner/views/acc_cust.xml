@@ -1,22 +1,21 @@
 <!-- any questions? piotr.w.cierkosz@gmail.com -->
 <openerp>
-    <data>
-      <record id="credits_debts_cust_f_view" model="ir.ui.view">
-<!-- from external id -->
-        <field name="inherit_id" ref="account.view_partner_property_form"/>
-<!-- from object -->
-        <field name="model">res.partner</field>
-        <field name="arch" type="xml">
-          <!-- instead of replacing the field we can replace its attributes-->
-            <field name="credit" position="attributes">
-              <!-- groups=base.group_user has to be enter like below.
-              if it was invisible="1" "groups" would be replaced by invisible -->
-             <attribute name="groups">base.group_user</attribute>
-      </field>
-      <field name="debit" position="attributes">
-      <attribute name="groups">base.group_user</attribute>
-</field>
+  <data>
+    <record id="credits_debts_cust_f_view" model="ir.ui.view">
+      <!-- from external id -->
+      <field name="inherit_id" ref="account.view_partner_property_form"/>
+      <!-- from object -->
+      <field name="model">res.partner</field>
+      <field name="arch" type="xml">
+        <!-- instead of replacing the field we can replace its attributes-->
+        <field name="credit" position="attributes">
+          <!-- groups=base.group_user has to be enter like below. if it was invisible="1" "groups" would be replaced by invisible -->
+          <attribute name="groups">base.group_user</attribute>
         </field>
-      </record>
-    </data>
+        <field name="debit" position="attributes">
+          <attribute name="groups">base.group_user</attribute>
+        </field>
+      </field>
+    </record>
+  </data>
 </openerp>
