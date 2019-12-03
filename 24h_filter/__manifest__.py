@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name' : "24h filter",
-    'version' : "1.1",
+    'version' : "11.0.1.1",
     'author' : "Piotr Cierkosz",
     'images': ['images/thumbnail.png'],
     'depends' : ['sale', 'stock', 'account', 'purchase'],

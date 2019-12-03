@@ -22,6 +22,6 @@ Installation
 Compatibility
 ------------
 
-- Fully Supports Odoo Version 12.0 Community
+- Fully Supports Odoo Version 11.0 Community
 
 - Module tested on clean Odoo installation, no errors detected

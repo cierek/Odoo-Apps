@@ -3,6 +3,6 @@
 Changelog
 =========
 
-`Version 1.0 (2019)`
+`Version 1.0 (08-04-2019)`
 -------------------------
-- First release for Odoo 12.0.
+- First release for Odoo 11.0.

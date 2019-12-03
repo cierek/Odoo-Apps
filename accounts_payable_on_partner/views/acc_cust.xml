@@ -1,0 +1,19 @@
+<!-- any questions? piotr.w.cierkosz@gmail.com -->
+<odoo>
+  <data>
+    <record id="credits_debts_cust_f_view" model="ir.ui.view">
+      <!-- from external id -->
+      <field name="inherit_id" ref="base.view_partner_form"/>
+      <!-- from object -->
+      <field name="model">res.partner</field>
+      <field name="arch" type="xml">
+        <field name='trust' position="after">
+          <field name="credit"/>
+        </field>
+        <field name='property_supplier_payment_term_id' position="after">
+          <field name="debit"/>
+        </field>
+      </field>
+    </record>
+  </data>
+</odoo>

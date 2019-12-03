@@ -7,7 +7,7 @@
     'name': 'Steemit and DTube on Website and Blog',
     'author': 'Piotr Cierkosz',
     'website': 'http://www.cier.tech',
-    'version': '1.0',
+    'version': '11.0.1.0.1',
     'category': 'Website',
     'images': ['images/thumbnail.png'],
     'depends' : ['website', 'website_blog'],

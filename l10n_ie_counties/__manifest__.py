@@ -5,7 +5,7 @@
 {
     'name': 'Counties of Ireland',
     'category': 'Localisation/Europe',
-    'version': '1.1',
+    'version': '11.0.1.1',
     'author': 'Piotr Cierkosz',
     'data': [
         'data/res_country_states.xml',

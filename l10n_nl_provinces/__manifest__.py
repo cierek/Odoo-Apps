@@ -5,7 +5,7 @@
 {
     'name': 'Netherlands Country States',
     'category': 'Localisation/Europe',
-    'version': '1.0',
+    'version': '11.0.1.0',
     'author': 'Piotr Cierkosz',
     'data': [
         'data/res_country_states.xml',

@@ -10,7 +10,7 @@
     'description': """Sales Margin on the list view for sales and quotations
 """,
     'images': ['images/thumbnail.png'],
-    'version': '1.0',
+    'version': '11.0.1.0',
     'depends': ['sale','sale_margin'],
     'data': ['views/sq_margin_tree.xml'],
     'installable': True,

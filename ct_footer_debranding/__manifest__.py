@@ -2,7 +2,7 @@
 # © 2019 Piotr Cierkosz <piotr.w.cierkosz@gmail.com>
 {
     'name': "Footer Debranding for Website",
-    'version': "1.0",
+    'version': "11.0.1.0",
     'author': "Piotr Cierkosz",
     'website': "https://www.cier.tech",
     'category': "Website",
