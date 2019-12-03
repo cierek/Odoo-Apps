@@ -1,9 +1,6 @@
 # Odoo-Apps
 Apps and Modules for Odoo ERP
 
-# Odoo-Apps
-Apps and Modules for Odoo ERP
-
 Modules for Odoo 9.0
 
 This folder contains modules for Odoo 12. Every single module was tested on a clean Odoo installation. However, you should always back up your Odoo before you install any new module.
