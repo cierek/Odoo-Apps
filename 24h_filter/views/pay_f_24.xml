@@ -1,0 +1,15 @@
+<odoo>
+  <data>
+    <!-- Record from External ID -->
+    <record id="d_search_pay" model="ir.ui.view">
+      <field name="inherit_id" ref="account.view_account_payment_search"/>
+      <!-- From object -->
+      <field name="model">account.payment</field>
+      <!-- inherits architecture -->
+      <field name="arch" type="xml">
+        <field name='name' position="before">
+          <filter name="Last 24h" domain="[('payment_date', '&gt;=', (datetime.datetime.now() - datetime.timedelta(days=1)).strftime('%Y-%m-%d %H:%M:%S')), ('payment_date', '&lt;=', datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))]"/></field>
+      </field>
+    </record>
+  </data>
+</odoo>
