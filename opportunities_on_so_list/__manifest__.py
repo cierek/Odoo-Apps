@@ -2,7 +2,7 @@
 
 {
     'name' : "Opportunity on Sales Orders list",
-    'version' : "1.1",
+    'version' : "10.0.1.1",
     'images': ['images/thumbnail.png'],
     'author' : "Piotr Cierkosz",
     'category': 'Sales',
