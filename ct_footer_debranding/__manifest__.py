@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # © 2019 Piotr Cierkosz <info@cier.tech>
 {
-    'name': "Footer Debranding for Website",
+    'name': "Remove Footer Branding for Website",
     'version': "13.0.1.0",
     'author': "Piotr Cierkosz",
     'website': "https://www.cier.tech",
@@ -10,8 +10,10 @@
     'images': ['images/thumbnail.png'],
     'depends' : ['website'],
     'installable' : True,
-    'description' : "Remove Odoo branding from the footer",
+    'description' : "Remove footer branding from the footer",
     'license': 'Other proprietary',
-    'summary': 'Remove Odoo branding from the footer',
-
+    'summary': 'Remove footer branding from the footer',
+    'price': 00.0,
+    'currency': 'EUR',
+    'application': True,
 }
