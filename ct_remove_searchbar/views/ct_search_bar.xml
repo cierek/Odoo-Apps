@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <template id="ct_search_bar_remove" inherit_id="website.website_search_box" name="remove searchbar" active="True" priority="99">
+      <xpath expr="//div[1]" position="replace">
+        <t t-if="not website.ct_searchbar_in_shop">
+ <div t-attf-class="input-group #{_classes}" role="search">
+
+     <input type="text" name="search" class="search-query form-control oe_search_box" placeholder="Search..." t-att-value="search" invisible="1"/>
+     <div class="input-group-append">
+         <button type="submit" class="btn btn-primary oe_search_button" aria-label="Search" title="Search"><i class="fa fa-search"/></button>
+     </div>
+ </div>
+ </t>
+      </xpath>
+    </template>
+  </data>
+</odoo>
