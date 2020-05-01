@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <!-- inheriting Products item" view -->
+  <template id="ct_your_footer_branding" inherit_id="website.brand_promotion" name="Your footer" active="True" priority="99">
+    <xpath expr="//div[@class='o_brand_promotion']" position="replace">
+      <div class="o_brand_promotion">
+        <!-- Here you can put your footer message -->
+        <p>
+        Deployed by <a href="https://www.cier.tech">CierTech</a> and powered by <a href="https://www.odoo.com/r/VXj">Odoo</a>
+      </p>
+      </div>
+    </xpath>
+  </template>
+</data>
