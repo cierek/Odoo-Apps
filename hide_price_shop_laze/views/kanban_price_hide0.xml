@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <template id="kanban_price_hide_laze" inherit_id="theme_laze.product_items" name="Hide price laze" active="True">
+    <xpath expr="//div[@class='pro-info']" position="replace">
+      <div class="pro-info">
+      <t t-if="uid is not None">
+          <h3><strong><a itemprop="name" t-att-href="keep('/shop/product/%s' % slug(product), page=(pager['page']['num'] if pager['page']['num']&gt;1 else None))" t-field="product.name"/></strong></h3>
+                     <div itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="product_price" t-if="product.product_variant_ids">
+              <b>
+
+                  <t t-if="(compute_currency(product.lst_price) - product.website_price ) &gt; 0.01  and website.get_current_pricelist().discount_policy=='without_discount'">
+                      <del class="text-danger mr8" style="white-space: nowrap;" t-esc="compute_currency(product.website_public_price)" t-options="{'widget': 'monetary', 'display_currency': website.get_current_pricelist().currency_id, 'from_currency': website.currency_id}"/>
+                  </t>
+
+                  <span t-esc="product.website_price" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}"/>
+                  <span itemprop="price" style="display:none;" t-esc="product.website_price"/>
+                  <span itemprop="priceCurrency" style="display:none;" t-esc="website.currency_id.name"/>
+              </b>
+          </div>
+          </t>
+    <t t-call="rating.rating_card">
+  <t t-set="rating_stat" t-value="product.rating_get_stats([('website_published', '=', True)])"/>
+  <t t-set="max_rate" t-value="5"/>
+  <t t-set="min_rate" t-value="1"/>
+  </t>
+  <div class="pro-action">
+        </div>
+      </div>
+    </xpath>
+  </template>
+
+</data>
