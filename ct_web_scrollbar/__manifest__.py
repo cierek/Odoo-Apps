@@ -7,7 +7,7 @@
     'version': '12.0.1.0.1',
     'category': 'Website',
     'images': ['images/thumbnail.png'],
-    'depends' : ['website_crm'],
+    'depends' : ['website'],
     'installable' : True,
     'license': 'Other proprietary',
     'summary': 'Module adds scrollbar to the top bar',
